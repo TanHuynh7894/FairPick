@@ -1,0 +1,12 @@
+out/
+cache/
+broadcast/
+.env
+.env.*
+!.env.example
+/logs/
+dist/
+.playwright-mcp/
+node_modules/
+docker-compose.yml
+docker/

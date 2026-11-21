@@ -1,0 +1,21 @@
+{
+  "oracle": "0xa4c1019b76EE5bEB9aFe641AAcf164b787b037Dd",
+  "requestId": "5",
+  "answerTx": "0xa12b42fbb55409973144d0023fadbe90353abd39020d95e26e41a0c49ecb90d6",
+  "partials": [
+    {
+      "index": 1,
+      "signature": [
+        "0x27d35c4c8f6bf5f7d6d1aaf094721e2c548960f121ff78a392d4dc7764d281a7",
+        "0x1193e71968e96f7cac75486a47185e98b9a231b88703fa2ddded65326647ee8b"
+      ]
+    },
+    {
+      "index": 2,
+      "signature": [
+        "0x0b76fb2723c93768298ac1526b2f4dabc96cd3086e169f33bb27563bc4d08180",
+        "0x111c781f7cf96532f024ea93d8210356dc42921e3c3f845eb176e1746f50492e"
+      ]
+    }
+  ]
+}

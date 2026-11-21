@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+.git
+out
+cache
+broadcast
+logs
+lib
+.env
+.env.*
+**/.env.local
+!**/.env.example
+docs/img

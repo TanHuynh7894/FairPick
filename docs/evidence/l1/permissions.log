@@ -1,0 +1,25 @@
+outsider                                             0x2cC649f2d93bF4b7d8Fb031D00B155171e99a77E role=none balance=1000000000000000000 wei FPK
+outsider requestAudit: refused by the node           cannot issue transaction from non-allow listed address: 0x2cC649f2d93bF4b7d8Fb031D00B155171e99a77E
+new treasurer (key in .env as L1_MEMBER_KEY)         0xA5DD2Ff4bF0b01308cE1E50C0767C3Ae7Be3302A role=none
+new treasurer before it is enabled: refused by the node insufficient funds for gas * price + value: balance 0, tx cost 360000000300000, overshot 360000000300000
+admin                                                0x8e19042500d59CB3DceFC508221af9630337Fa75 role=admin
+admin setEnabled(new treasurer)                      0x97b142a57c803e95b882952324e692f450f6939f15e4a27f65b1c53f376ac356
+admin sends the treasurer 1 FPK for gas              0x7708ac8bd0b1a9092f66f70d2246c37663683ef642e9f6e56ce0bb75dd64098b
+new treasurer role now                               enabled
+[  0.0 s] list 0x96056dccbfe36475c0fcfd9bc3aa18d82df452bcbd18e225af5201cd41de66a1, 16 receipts, check 3; auditor 0x8e19042500d59CB3DceFC508221af9630337Fa75, treasurer 0xA5DD2Ff4bF0b01308cE1E50C0767C3Ae7Be3302A
+[  9.1 s] L1 audit 3 requested, ICM message 0x38d30ad39cad41af188dc537b949e997b771933e253fa0ce7b796d14f9f29a9b
+[ 21.9 s] Fuji: oracle request 8 filed by the adapter
+[ 27.9 s] Fuji: answered by the nodes in 0x76111ca4a7bb14b19acc322cb73c2640365d2a427026b71d3df8944bedaec3e0
+[ 34.2 s] L1 audit 3: check receipts 5, 14, 1 (in draw order)
+Fuji fund adapter with one oracle fee            0xe4ea3bcfb0440e4967b8e98f28f2c920fbab99892fa711249c7b90814ed50042
+L1 announce                                      0x857f9b371843298661d00ef258209fe847b4b2f6400e68ca6f6c67b9a4bff4a9
+L1 requestAudit -> ICM send (L1 to Fuji)         0x23d2a972dd35624ea208048d6f32721b9e295422ec28316f1f30921c55a99dfd
+Fuji ICM receive -> oracle request filed         0x31533ae5b634b9aea663cbf8c18e1ebcbc2a99d14e5b2e9f41dcd2a2af4b4d71
+Fuji oracle.fulfill by the nodes (BLS checked)   0x76111ca4a7bb14b19acc322cb73c2640365d2a427026b71d3df8944bedaec3e0
+Fuji adapter.forward -> ICM send (Fuji to L1)    0x1236e54a850c74b61b1815f97e4d3e681fd722a36c87c221b321dbfdb11f055e
+L1 ICM receive -> BLS checked, sample stored     0xdd2680375da0d62286cca90c8007d4fcbdaf43b43e8be09cf4a4e9cd5564dd93
+audit 3, oracle request 8, picks [5, 14, 1]
+admin setNone(treasurer), offboarded                 0x4de92efdba82bd475abf164899c0ebf6cb36cb7f71ec0eb6ddb9c8846a2b0aef
+treasurer role now                                   0xA5DD2Ff4bF0b01308cE1E50C0767C3Ae7Be3302A none
+offboarded treasurer requestAudit: refused by the node cannot issue transaction from non-allow listed address: 0xA5DD2Ff4bF0b01308cE1E50C0767C3Ae7Be3302A
+exit 0

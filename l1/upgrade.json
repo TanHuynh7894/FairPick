@@ -1,0 +1,18 @@
+{
+ "precompileUpgrades": [
+  {
+   "txAllowListConfig": {
+    "blockTimestamp": 1795199165,
+    "adminAddresses": [
+     "0x8e19042500d59CB3DceFC508221af9630337Fa75",
+     "0x7855c958eC2e104D358aBAd285b50e7C759547F9"
+    ],
+    "enabledAddresses": [
+     "0x05431B6a89398994B65Fa8cc71d94afa57298639",
+     "0x474044236309DC089A92c5AB9A3daF853831F1DC",
+     "0x9D75a7fF8DA5B07BF624C2e5B17208f33fcc36C5"
+    ]
+   }
+  }
+ ]
+}

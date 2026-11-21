@@ -1,0 +1,12 @@
+[node 2] 2026-11-18T18:27:34.210Z holding share 2 of the oracle's 2-of-3 key, serving partial signatures on :8702
+[node 2] 2026-11-18T18:27:34.441Z tx wallet 0x6452F2c82789a40c0948dBC2c81E4D98C7828bC6, at most 10000000000000000 wei per answer and 500 gwei per gas
+[node 2] 2026-11-18T18:27:35.299Z oracle node running
+[node 2] 2026-11-18T18:27:58.226Z request 1: combined the partial signatures of shares 2 and 1
+[node 2] 2026-11-18T18:27:59.274Z skipped request 1: execution reverted
+[node 2] 2026-11-18T18:28:35.733Z request 2: combined the partial signatures of shares 2 and 3
+[node 2] 2026-11-18T18:28:37.673Z sent nonce 2 for request 2: 0x5e69dbeb80b4a541cf7515135545ec0b5f9e70d1b5cd88477271d035a78aecbe
+[node 2] 2026-11-18T18:29:28.548Z holding share 2 of the oracle's 2-of-3 key, serving partial signatures on :8702
+[node 2] 2026-11-18T18:29:28.783Z tx wallet 0x6452F2c82789a40c0948dBC2c81E4D98C7828bC6, at most 10000000000000000 wei per answer and 500 gwei per gas
+[node 2] 2026-11-18T18:29:29.677Z oracle node running
+[node 2] 2026-11-18T18:34:53.710Z request 5: combined the partial signatures of shares 2 and 1
+[node 2] 2026-11-18T18:34:54.740Z skipped request 5: execution reverted

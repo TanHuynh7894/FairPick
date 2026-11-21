@@ -1,0 +1,6 @@
+[node 3] 2026-11-18T18:27:34.158Z holding share 3 of the oracle's 2-of-3 key, serving partial signatures on :8703
+[node 3] 2026-11-18T18:27:34.380Z tx wallet 0x3a009fA04952c59B2E20e5c06916E3F02Ef7B370, at most 10000000000000000 wei per answer and 500 gwei per gas
+[node 3] 2026-11-18T18:27:35.183Z oracle node running
+[node 3] 2026-11-18T18:29:28.726Z holding share 3 of the oracle's 2-of-3 key, serving partial signatures on :8703
+[node 3] 2026-11-18T18:29:28.992Z tx wallet 0x3a009fA04952c59B2E20e5c06916E3F02Ef7B370, at most 10000000000000000 wei per answer and 500 gwei per gas
+[node 3] 2026-11-18T18:29:29.923Z oracle node running

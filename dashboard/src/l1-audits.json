@@ -1,0 +1,124 @@
+{
+  "readAt": "2026-11-20T18:45:21.276Z",
+  "l1": {
+    "name": "fairpick",
+    "chainId": 510103,
+    "blockchainID": "24ttXXTxYDu7QNNMbdMkmjiZkBB5zYN5qQikNWTr3REqcibFYg",
+    "subnetID": "xhPrD6175hcsC8WRTb1e64c7agEkcBmkLA1YFtuTVxi42dXmj",
+    "block": 29
+  },
+  "sampler": "0x3A54a96d74891C3d8E707760A60A1Ef96e07f7dF",
+  "audits": [
+    {
+      "auditId": 1,
+      "label": "CLB Sach - quy 3",
+      "itemCount": 20,
+      "sampleSize": 3,
+      "fileHash": "0xe7588ef91edd30b50ce97bf4299b2c19bffa71612bec74266ad2e66cf5f8e6a5",
+      "auditor": "0x8e19042500d59CB3DceFC508221af9630337Fa75",
+      "requester": "0x05431B6a89398994B65Fa8cc71d94afa57298639",
+      "settled": true,
+      "oracleRequestId": 6,
+      "picks": [
+        13,
+        12,
+        4
+      ],
+      "requestTx": "0x8ac6e59be1535afc940e91f5e6f0b0dd8080fba0dd8490139d0157ccd2ff4d7e",
+      "answerTx": "0xd9b8ef3841ccee040b03e9c7a477276d8f029e4ea7f210d22a341995eda65442"
+    },
+    {
+      "auditId": 2,
+      "label": "Quy tu thien Am Ap - dot 3",
+      "itemCount": 35,
+      "sampleSize": 4,
+      "fileHash": "0x657034fbe77f7bec96f60fb77b8af6c2ee5bb0ba2bc2c06ec8c59ca28e5f3c00",
+      "auditor": "0x8e19042500d59CB3DceFC508221af9630337Fa75",
+      "requester": "0x05431B6a89398994B65Fa8cc71d94afa57298639",
+      "settled": true,
+      "oracleRequestId": 7,
+      "picks": [
+        8,
+        6,
+        31,
+        13
+      ],
+      "requestTx": "0x1bd820652cb6d95c226054908fd001b0fcb6b824058bc6a13c8f5c3bfd96e2f9",
+      "answerTx": "0x42f70713430382787f8768b226812110e59934ac06e6747204d68da07dc1126c"
+    },
+    {
+      "auditId": 3,
+      "label": "CLB Bong ro mua giai 2026",
+      "itemCount": 16,
+      "sampleSize": 3,
+      "fileHash": "0x96056dccbfe36475c0fcfd9bc3aa18d82df452bcbd18e225af5201cd41de66a1",
+      "auditor": "0x8e19042500d59CB3DceFC508221af9630337Fa75",
+      "requester": "0xA5DD2Ff4bF0b01308cE1E50C0767C3Ae7Be3302A",
+      "settled": true,
+      "oracleRequestId": 8,
+      "picks": [
+        5,
+        14,
+        1
+      ],
+      "requestTx": "0x23d2a972dd35624ea208048d6f32721b9e295422ec28316f1f30921c55a99dfd",
+      "answerTx": "0xdd2680375da0d62286cca90c8007d4fcbdaf43b43e8be09cf4a4e9cd5564dd93"
+    },
+    {
+      "auditId": 4,
+      "label": "Hoi Sinh vien Kinh te - thang 11",
+      "itemCount": 22,
+      "sampleSize": 4,
+      "fileHash": "0xfd3df20f1b3a4a30e8592fc723e111ed44517fdd61af2de27577ab6a6333f18a",
+      "auditor": "0x8e19042500d59CB3DceFC508221af9630337Fa75",
+      "requester": "0x05431B6a89398994B65Fa8cc71d94afa57298639",
+      "settled": true,
+      "oracleRequestId": 9,
+      "picks": [
+        18,
+        15,
+        3,
+        6
+      ],
+      "requestTx": "0x0eeaee778a18e2b5ef931d8c3bce00751ef19c91e7ad4fc93fd9f575c43179cb",
+      "answerTx": "0x04ea3069582b5bda1ac0f6e24e64984b0bade98a90628f4b084f578a9b3c9a55"
+    }
+  ],
+  "writers": [
+    {
+      "address": "0x8e19042500d59CB3DceFC508221af9630337Fa75",
+      "who": "Audit office (auditor, allow-list admin)",
+      "role": "admin"
+    },
+    {
+      "address": "0x7855c958eC2e104D358aBAd285b50e7C759547F9",
+      "who": "Team ops (validator manager owner)",
+      "role": "admin"
+    },
+    {
+      "address": "0x05431B6a89398994B65Fa8cc71d94afa57298639",
+      "who": "Treasurer",
+      "role": "enabled"
+    },
+    {
+      "address": "0x474044236309DC089A92c5AB9A3daF853831F1DC",
+      "who": "ICM relayer",
+      "role": "enabled"
+    },
+    {
+      "address": "0x9D75a7fF8DA5B07BF624C2e5B17208f33fcc36C5",
+      "who": "Genesis FPK holder",
+      "role": "enabled"
+    },
+    {
+      "address": "0xA5DD2Ff4bF0b01308cE1E50C0767C3Ae7Be3302A",
+      "who": "Treasurer 2: enabled, filed an audit, then removed",
+      "role": "none"
+    },
+    {
+      "address": "0x2cC649f2d93bF4b7d8Fb031D00B155171e99a77E",
+      "who": "Outsider (test wallet)",
+      "role": "none"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[node 1] 2026-11-18T18:27:34.327Z holding share 1 of the oracle's 2-of-3 key, serving partial signatures on :8701
+[node 1] 2026-11-18T18:27:34.572Z tx wallet 0xb81F99bce6F579c2D127FDD90AA7CB4f99111Af2, at most 10000000000000000 wei per answer and 500 gwei per gas
+[node 1] 2026-11-18T18:27:35.467Z oracle node running
+[node 1] 2026-11-18T18:27:52.364Z request 1: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:27:55.098Z request 1: combined the partial signatures of shares 1 and 2
+[node 1] 2026-11-18T18:27:57.238Z sent nonce 7 for request 1: 0x072590f9e294a95658ec0845ee0812d3a19f88a66ce197d14e6d91a553d21dc3
+[node 1] 2026-11-18T18:29:00.587Z holding share 1 of the oracle's 2-of-3 key, serving partial signatures on :8701
+[node 1] 2026-11-18T18:29:00.821Z tx wallet 0xb81F99bce6F579c2D127FDD90AA7CB4f99111Af2, at most 10000000000000000 wei per answer and 500 gwei per gas
+[node 1] 2026-11-18T18:29:01.702Z oracle node running
+[node 1] 2026-11-18T18:29:11.545Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:13.765Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:15.971Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:18.177Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:20.388Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:22.602Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:24.813Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:27.027Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:29.237Z request 3: 1 of 2 partial signatures
+[node 1] 2026-11-18T18:29:31.564Z request 3: combined the partial signatures of shares 1 and 2
+[node 1] 2026-11-18T18:29:33.629Z sent nonce 8 for request 3: 0x781a02193291af057f34393a37483069a718f0ec3a07529845a2d5a740894729
+[node 1] 2026-11-18T18:30:41.071Z request 4: combined the partial signatures of shares 1 and 2
+[node 1] 2026-11-18T18:30:43.048Z sent nonce 9 for request 4: 0xe80ffa3d3b900a35a48d8800f015e813f721353d73c34dab61f26f38f457c7a8
+[node 1] 2026-11-18T18:34:50.496Z request 5: combined the partial signatures of shares 1 and 2
+[node 1] 2026-11-18T18:34:52.462Z sent nonce 10 for request 5: 0xa12b42fbb55409973144d0023fadbe90353abd39020d95e26e41a0c49ecb90d6

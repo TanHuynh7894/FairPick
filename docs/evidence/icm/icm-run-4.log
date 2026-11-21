@@ -1,0 +1,15 @@
+[  0.0 s] list 0xfd3df20f1b3a4a30e8592fc723e111ed44517fdd61af2de27577ab6a6333f18a, 22 receipts, check 4; auditor 0x8e19042500d59CB3DceFC508221af9630337Fa75, treasurer 0x05431B6a89398994B65Fa8cc71d94afa57298639
+[ 15.0 s] L1 audit 4 requested, ICM message 0x6cf02c28d16f0d3c3e07699105274885acd66d779993bf70968c4d0b8989a119
+[ 32.5 s] Fuji: oracle request 9 filed by the adapter
+[ 33.3 s] Fuji: answered by the nodes in 0x0314c3cf1ce69ae6759104807f59404ad07a9d71898f87a8fbd73e37441fa4be
+[ 40.9 s] L1 audit 4: check receipts 18, 15, 3, 6 (in draw order)
+Fuji oracle.withdraw (fees back to operator)     0xb605a7d03b33c89761ba465cace3dd6acf748e69d0767425031e91e74818e708
+Fuji fund adapter with one oracle fee            0xdb12cc66ea51045b2cb3903b073b5eb70c9c8e7fc8e574018b0b5027ca3c9e29
+L1 announce                                      0x84f0fad56a6846258a87ee2243fddcd5db6f437213cb4516751f5893512b36e0
+L1 requestAudit -> ICM send (L1 to Fuji)         0x0eeaee778a18e2b5ef931d8c3bce00751ef19c91e7ad4fc93fd9f575c43179cb
+Fuji ICM receive -> oracle request filed         0xd24fc634135229e0102322c0261c22e65b732e35351b069497b3bf4f93b08fbf
+Fuji oracle.fulfill by the nodes (BLS checked)   0x0314c3cf1ce69ae6759104807f59404ad07a9d71898f87a8fbd73e37441fa4be
+Fuji adapter.forward -> ICM send (Fuji to L1)    0x7e2c927fcf0ad3d56a7e8bd475566a3458138b86e0790ce609d00ab17f40c939
+L1 ICM receive -> BLS checked, sample stored     0x04ea3069582b5bda1ac0f6e24e64984b0bade98a90628f4b084f578a9b3c9a55
+audit 4, oracle request 9, picks [18, 15, 3, 6]
+exit 0
